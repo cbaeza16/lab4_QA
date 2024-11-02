@@ -14,6 +14,16 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+/**
+ * Nombre de la prueba: testLanguageSelection
+ * Objetivo: Verificar que la selección del idioma turco en el sitio PHPTRAVELS 
+ * cambie correctamente el idioma de la interfaz.
+ * Datos de prueba: Seleccionar 'TURKISH' desde el menú de idiomas.
+ * Resultado esperado: 
+ * 1. El idioma seleccionado debe mostrarse como 'Turkish' en el menú de idiomas.
+ * 2. El botón de hoteles debe mostrar el texto 'Oteller'.
+ */
+
 public class PHPTurkishLanguageTest {
 	private WebDriver driver;
 

@@ -14,6 +14,17 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+/**
+ * Nombre de la prueba: testLanguageSelection
+ * Objetivo: Verificar que la selección del idioma ruso en el sitio PHPTRAVELS 
+ * cambie correctamente el idioma de la interfaz.
+ * Datos de prueba: Seleccionar 'RUSIIAN' desde el menú de idiomas.
+ * Resultado esperado: 
+ * 1. El idioma seleccionado debe mostrarse como 'Russian' en el menú de idiomas.
+ * 2. El botón de hoteles debe mostrar el texto 'Отели'.
+ */
+
+
 public class PHPRussianLanguageTest {
     private WebDriver driver;
 

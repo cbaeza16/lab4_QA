@@ -12,6 +12,15 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+/**
+ * Prueba: testUserLogin
+ * Objetivo: Verificar que un usuario puede iniciar sesión correctamente en el sistema PHPTravels.
+ * Datos de prueba:
+ * - Correo electrónico: user@phptravels.com
+ * - Contraseña: demouser
+ * Resultado esperado: El usuario debe ser redirigido a la página después de iniciar sesión.
+ */
+
 public class PHPTravelsLoginTest {
     private WebDriver driver;
 

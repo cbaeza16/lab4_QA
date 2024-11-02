@@ -1,7 +1,6 @@
 package com.lab4;
 
 import java.time.Duration;
-
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -11,6 +10,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+/**
+ * Nombre de la prueba: testAdminLogin
+ * Objetivo: Verificar que un administrador pueda iniciar sesión en el panel de administración de PHPTravels.
+ * Datos de prueba: 
+ *  - Correo electrónico: admin@phptravels.com
+ *  - Contraseña: demoadmin
+ * Resultado esperado: La prueba debe iniciar sesión exitosamente y redirigir al panel de administración.
+ */
 
 public class PHPAdminLoginTest {
     private WebDriver driver;

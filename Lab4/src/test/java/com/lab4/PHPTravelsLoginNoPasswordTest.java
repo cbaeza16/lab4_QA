@@ -14,6 +14,16 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+/**
+ * Prueba: testInvalidPasswordLogin
+ * Objetivo: Verificar que un usuario no puede iniciar sesión con una contraseña incorrecta.
+ * Datos de prueba: 
+ * - Email: user@phptravels.com
+ * - Contraseña: incorrectpassword
+ * Resultado esperado: 
+ * - Se debe mostrar un mensaje de error "Invalid Login" en la pantalla.
+ */
+
 public class PHPTravelsLoginNoPasswordTest {
     private WebDriver driver;
 

@@ -2,6 +2,16 @@ package com.lab4;
 
 import static org.junit.Assert.assertTrue;
 
+/**
+ * Nombre de la prueba: testLanguageSelection
+ * Objetivo: Verificar que la selección del idioma francés en el sitio PHPTRAVELS 
+ * cambie correctamente el idioma de la interfaz.
+ * Datos de prueba: Seleccionar 'French' desde el menú de idiomas.
+ * Resultado esperado: 
+ * 1. El idioma seleccionado debe mostrarse como 'FRENCH' en el menú de idiomas.
+ * 2. El botón de hoteles debe mostrar el texto 'Hôtels'.
+ */
+
 import java.time.Duration;
 
 import org.junit.After;

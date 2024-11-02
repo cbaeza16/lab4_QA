@@ -14,6 +14,17 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+/**
+ * Nombre de la prueba: testNavigationAndContent
+ * Objetivo: Verificar la navegación en el sitio web y validar que se carga el contenido esperado.
+ * Datos de prueba: 
+ * - Se accede al menú desde el encabezado del sitio.
+ * - Se selecciona el primer elemento del contenido.
+ * Resultado esperado: 
+ * - Se debe mostrar el contenido esperado en la página seleccionada.
+ * - El texto del contenido no debe estar vacío.
+ */
+
 public class PHPTravlesNavigationTest {
     private WebDriver driver;
 

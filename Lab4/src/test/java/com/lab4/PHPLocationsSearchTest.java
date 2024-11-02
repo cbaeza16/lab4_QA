@@ -14,6 +14,15 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+/**
+ * Nombre de la prueba: testPHPLocationsSearch
+ * Objetivo: Verificar que la búsqueda de la ubicación "Dubai" en el sitio PHPTravels se realice correctamente.
+ * Datos de prueba: 
+ * - Búsqueda de la ciudad: "Dubai".
+ * Resultado esperado: 
+ * - El texto del resultado debe contener "Dubai" después de realizar la búsqueda.
+ */
+
 public class PHPLocationsSearchTest {
     private WebDriver driver;
 
